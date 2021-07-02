@@ -72,7 +72,7 @@ bot.action('POP',(ctx)=>{
 //help
 
 bot.command('/help',(ctx)=>{
-    ctx.reply(`Hello <b>${ctx.from.first_name}</b> This bot created by @foryoubbs follow our channel & share, Thanks)`,{
+    ctx.reply(`Hello <b>${ctx.from.first_name}</b> This bot created by @foryoubbs follow our channel & share, Thanks`,{
         parse_mode:'HTML',
         reply_markup:{
             inline_keyboard:[
