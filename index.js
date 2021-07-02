@@ -36,11 +36,11 @@ bot.start(async(ctx)=>{
     //welcoming message on /start and if there is a query available we can send files
 
     if(length == 1){
-        ctx.reply(`Hai ${ctx.from.first_name} <b>Jangan lupa follow & share channel kita @foryoubbs, <b> Terimakasih</b>`,{
+        ctx.reply(`Hai ${ctx.from.first_name} <b>Jangan lupa follow & share channel kita @foryoubbs,Terimakasih</b>) `,{
             parse_mode:'HTML',
             reply_markup:{
                 inline_keyboard:[
-                    [{text:'Follow Us 🎉',url:'t.me/foryoubbs'},{text:'Link',callback_data:'POP'}]
+                    [{text:'Channel Utama 🎉',url:'t.me/foryoubbs'}]
                 ]
             }
         })
