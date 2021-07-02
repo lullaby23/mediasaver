@@ -36,11 +36,11 @@ bot.start(async(ctx)=>{
     //welcoming message on /start and if there is a query available we can send files
 
     if(length == 1){
-        ctx.reply(`<b>I will store files for you and give sharable links .I can also make the files available for all users</b>`,{
+        ctx.reply(`Hai ${ctx.from.first_name} <b>Jangan lupa follow & share channel kita @foryoubbs, <b> Terimakasih</b>`,{
             parse_mode:'HTML',
             reply_markup:{
                 inline_keyboard:[
-                    [{text:'Search',switch_inline_query:''},{text:'Link',callback_data:'POP'}]
+                    [{text:'Follow Us 🎉',url:'t.me/foryoubbs'},{text:'Link',callback_data:'POP'}]
                 ]
             }
         })
@@ -72,11 +72,11 @@ bot.action('POP',(ctx)=>{
 //help
 
 bot.command('/help',(ctx)=>{
-    ctx.reply(`Hello <b>${ctx.from.first_name}</b> you can send me files and i will store and share link for that file to be used inside telegram\nYou can also use me for searching files contributed by various users\n\n(<code>Consider this as an initial version after fixing certain bugs we will make this bot opensource</code>)`,{
+    ctx.reply(`Hello <b>${ctx.from.first_name}</b> This bot created by @foryoubbs follow our channel & share, Thanks)`,{
         parse_mode:'HTML',
         reply_markup:{
             inline_keyboard:[
-                [{text:'🎲Clone',url:'t.me/filesaverhelp'}]
+                [{text:'🎅 Developer',url:'t.me/fybadmin'}]
             ]
         }    
     })
