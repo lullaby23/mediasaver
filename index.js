@@ -40,7 +40,7 @@ bot.start(async(ctx)=>{
             parse_mode:'HTML',
             reply_markup:{
                 inline_keyboard:[
-                    [{text:'Pesan Bot Seperti Ini 🤖',url:'t.me/fybadmin'}]
+                    [{text:'🤖',url:'t.me/filesdatabasebot'}]
                 ]
             }
         })
