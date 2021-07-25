@@ -36,11 +36,11 @@ bot.start(async(ctx)=>{
     //welcoming message on /start and if there is a query available we can send files
 
     if(length == 1){
-        ctx.reply(`Hai <b> ${ctx.from.first_name}</b> Jangan lupa follow & share channel kita @foryoubbs,Terimakasih`,{
+        ctx.reply(`Hai <b> ${ctx.from.first_name}</b>Bot ini bebas digunakan siapa saja, bot ini berfungsi untuk memberikan link dri file kamu.`,{
             parse_mode:'HTML',
             reply_markup:{
                 inline_keyboard:[
-                    [{text:'Channel Utama 🎉',url:'t.me/foryoubbs'}]
+                    [{text:'Pesan Bot Seperti Ini 🤖',url:'t.me/fybadmin'}]
                 ]
             }
         })
