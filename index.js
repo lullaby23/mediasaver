@@ -76,7 +76,7 @@ bot.command('/help',(ctx)=>{
         parse_mode:'HTML',
         reply_markup:{
             inline_keyboard:[
-                [{text:'🎅 Developer',url:'t.me/fybadmin'}]
+                [{text:'🎅 Developer',url:'t.me/filesdatabasebot'}]
             ]
         }    
     })
